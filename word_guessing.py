@@ -24,6 +24,7 @@ while turns > 0:
         print("The word is: ", word)
         break
 
+    print()
     guess = input("Guess the characters:")
     guesses += guess
 
