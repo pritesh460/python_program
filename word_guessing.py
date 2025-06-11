@@ -33,4 +33,4 @@ while turns > 0:
         print("You have", + turns, 'more guesses')
 
         if turns == 0:
-            print("You Loose")
+            print("You Loose!")
