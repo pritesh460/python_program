@@ -22,7 +22,7 @@ def write_file(keys):
 
 def on_release(Key):
     print('{0} released'.format(Key))
-    if Key == Key.esc:
+    if Key == 'Key.esc':
         return False
 
 with Listener(on_press=on_press,
