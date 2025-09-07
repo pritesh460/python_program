@@ -2,8 +2,8 @@ import joblib
 import sys
 import streamlit as st
 
-model = joblib.load('G:/Python/cyberSecurity_project/Email_phishing/Phishing_model.pkl')
-vectorizer = joblib.load('G:/Python/cyberSecurity_project/Email_phishing/vectorizer.pkl')
+model = joblib.load('G:/Python/cyberSecurity_project/Email_phishing_detection/Phishing_model.pkl')
+vectorizer = joblib.load('G:/Python/cyberSecurity_project/Email_phishing_detection/vectorizer.pkl')
 
 st.title('Phishing Email Detecter')
 
